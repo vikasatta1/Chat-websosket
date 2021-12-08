@@ -4,9 +4,31 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+/*
+class App2 extends React.Component<any, any>{
+    state = {
+        counter: 0
+    }
+    plus = () => {
+        this.setState({counter: this.state.counter + 1})
+    }
+
+    render() {
+        return (
+            <div>
+                {this.state.counter}
+                <button onClick={this.plus}>+</button>
+            </div>
+        );
+    }
+}
+*/
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
